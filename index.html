@@ -8,25 +8,67 @@
     <title>Penguin fashion nike</title>
     <!-- Tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="tailwind.config.js"></script>
+
 </head>
 
 <body>
     <!-- section header start -->
     <section class="mx-7">
         <header class="sticky top-0 container m-5">
-            <div class="ms-auto sm:flex items-center justify-between">
-                <div class="sm:max-w-md">
-                    <img src="icons/Logo.png" class="sm:w-25" alt="">
+            <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+                <div class="container flex flex-wrap justify-between items-center mx-auto">
+                    <a href="index.html" class="flex items-center">
+                        <img src="icons/Logo.png" class="mr-3 h-6 sm:h-9" alt="Penguin Logo">
+
+                    </a>
+                    <button data-collapse-toggle="navbar-default" type="button"
+                        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-default" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                        <ul
+                            class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                                    aria-current="page">Home</a>
+                            </li>
+                            <li>
+                                <a href="#casual"
+                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent uppercase">Casual
+                                    shoes</a>
+                            </li>
+                            <li>
+                                <a href="#formal"
+                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent uppercase">Formal
+                                    shoes</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent uppercase">Contact
+                                    us</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent uppercase">Login</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="text-blue-600 justify-items-end sm:flex">
-                    <div class="mx-2">Home</div>
-                    <div class="mx-2">Product</div>
-                    <div class="mx-2">About Us</div>
-                    <div class="mx-2">Countact us</div>
-                </div>
-            </div>
+            </nav>
         </header>
+    </section>
+    <!-- header section end -->
+    <!-- section main start -->
+    <main>
+        <!-- section banner start -->
         <section class="mx-auto container">
             <div class="grid items-center  sm:grid-cols-2 gap-7 ">
                 <div class="col sm:p-8">
@@ -35,7 +77,8 @@
                 <div class="col sm:p-8">
                     <span class="uppercase text-orange-400 text-5xl font-bold block">Nike React</span>
                     <span class="uppercase text-5xl font-bold block">Infinity run2</span>
-                    <p class="sm:pt-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates sed aliquam
+                    <p class="sm:pt-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates sed
+                        aliquam
                         perspiciatis
                         quod odit voluptate exercitationem aut error perferendis? Blanditiis?</p>
                     <div class="mt-7">
@@ -46,25 +89,380 @@
                 </div>
             </div>
         </section>
-    </section>
-    <!-- section header end -->
-    <!-- section main start -->
-    <!-- section banner start -->
-    <section class="container mx-auto"></section>
-    <!-- section banner end -->
-    <!-- section causual shoes start -->
-    <section class="container mx-auto"></section>
-    <!-- section causual shoes end -->
-    <!-- section formal shoes start -->
-    <section class="container mx-auto"></section>
-    <!-- section formal shoes end -->
-    <!-- section product query start -->
-    <section class="container mx-auto"></section>
-    <!-- section product query end -->
-    <!-- section footer start -->
-    <section class="container mx-auto"></section>
-    <!-- section footer end -->
-    <!-- section main end -->
+        <!-- section banner end -->
+        <!-- section causual shoes start -->
+        <section class="container py-7 mx-auto">
+            <div id="casual" class="m-7">
+                <div class="pb-7">
+                    <h1 class="uppercase text-4xl font-semibold">casual shoes</h1>
+                </div>
+                <div class="grid sm:grid-cols-3 gap-7">
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="bg-gray-100 rounded-2xl p-5 h-160px text-center">
+                            <img src="images/Daco_1703273 1.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Nike Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="bg-gray-100 rounded-2xl p-5 h-160px text-center">
+                            <img src="images/image 5.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Sneakers Basketball shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-bold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="bg-gray-100 rounded-2xl p-5 h-160px text-center">
+                            <img src="images/pngegg 1.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Sneakers Skate Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$340</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="bg-gray-100 rounded-2xl p-5 h-160px text-center">
+                            <img src="images/Daco_1703273 1.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Nike Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="bg-gray-100 rounded-2xl p-5 h-160px text-center">
+                            <img src="images/image 5.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Sneakers Basketball shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-bold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="bg-gray-100 rounded-2xl p-5 h-160px text-center">
+                            <img src="images/pngegg 1.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Sneakers Skate Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$340</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="bg-gray-100 rounded-2xl p-5 h-160px text-center">
+                            <img src="images/Daco_1703273 1.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Nike Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="bg-gray-100 rounded-2xl p-5 h-160px text-center">
+                            <img src="images/image 5.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Sneakers Basketball shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-bold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="bg-gray-100 rounded-2xl p-5 h-160px text-center">
+                            <img src="images/pngegg 1.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Sneakers Skate Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$340</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section causual shoes end -->
+        <!-- section formal shoes start -->
+        <section class="container py-7 mx-auto">
+            <div id="formal" class="m-7">
+                <div class="pb-7">
+                    <h1 class="uppercase text-4xl font-semibold">formal shoes</h1>
+                </div>
+                <div class="grid sm:grid-cols-3 gap-7">
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="rounded-2xl p-5 h-160px text-center">
+                            <img src="images/Mask Group.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-semibold">Prestige High-Cut Leather </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="rounded-2xl p-5 h-160px text-center">
+                            <img src="images/Rectangle 38.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Slip-On Formal Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-bold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class=" ounded-2xl p-5 h-160px text-center">
+                            <img src="images/Rectangle 39.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Slip-On Formal Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$340</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="rounded-2xl p-5 h-160px text-center">
+                            <img src="images/Mask Group.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-semibold">Prestige High-Cut Leather </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="rounded-2xl p-5 h-160px text-center">
+                            <img src="images/Rectangle 38.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Slip-On Formal Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-bold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class=" ounded-2xl p-5 h-160px text-center">
+                            <img src="images/Rectangle 39.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Slip-On Formal Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$340</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="rounded-2xl p-5 h-160px text-center">
+                            <img src="images/Mask Group.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-semibold">Prestige High-Cut Leather </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class="rounded-2xl p-5 h-160px text-center">
+                            <img src="images/Rectangle 38.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Slip-On Formal Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-bold block">$240</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-lg bg-white text-center rounded-2xl p-5 sm:h-128">
+                        <div class=" ounded-2xl p-5 h-160px text-center">
+                            <img src="images/Rectangle 39.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-semibold">Slip-On Formal Shoe</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat porro dolor dolore quas
+                                aperiam non?</p>
+                            <div>
+                                <div class="mt-7 sm:flex justify-evenly">
+                                    <span class="text-4xl text-orange-400 font-semibold block">$340</span>
+                                    <button
+                                        class="uppercase text-xl text-white text-bold rounded-xl px-4 py-3 bg-blue-700">
+                                        <img src="icons/shopping-cart 1.png" alt="" class="inline w-8">Buy now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section formal shoes end -->
+        <!-- section product query start -->
+        <section class="container mx-auto"></section>
+        <!-- section product query end -->
+        <!-- section footer start -->
+        <section class="container mx-auto"></section>
+        <!-- section footer end -->
+        <!-- section main end -->
+    </main>
+
     <script src="tailwind.config.js"></script>
 </body>
 
